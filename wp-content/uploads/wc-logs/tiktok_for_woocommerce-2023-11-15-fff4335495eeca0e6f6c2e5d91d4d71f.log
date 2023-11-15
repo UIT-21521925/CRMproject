@@ -1,0 +1,26 @@
+2023-11-15T06:25:14+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_6554644aa62b3httplocalhost4scosmeticswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/4'scosmetics\/wp-admin\/"}
+ ajax: no
+2023-11-15T06:25:14+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: TLB
+Content-Type: application/json
+X-Tt-Logid: 202311150625152D33B3AF39CF870E2FE3,202311150625152D33B3AF39CF870E2FE3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server-Timing: inner; dur=95
+x-tt-trace-host: 01f94319b32d61389368971616acfb606b5d6572158827a6e36311064d3c98c8fca2daf544e272b3e60d9406079a6bea531577c07ed63dcfe98398badec5e07ba0f4fe04138c15659d8202c35d18a1438995e5007098c2d40e250a134122c8f127
+Content-Encoding: gzip
+Date: Wed, 15 Nov 2023 06:25:16 GMT
+Content-Length: 213
+X-Cache: TCP_MISS from a113-171-12-175.deploy.akamaitechnologies.com (AkamaiGHost/11.3.2-52182464) (-)
+Connection: close
+Vary: Accept-Encoding
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=138
+X-Origin-Response-Time: 138,113.171.12.175
+X-Akamai-Request-ID: 3569f21
+
+{"code":0,"msg":"ok","data":{"redirect_uri":"http:\/\/localhost\/4'scosmetics\/wp-admin\/","app_secret":"8e35f8d98270f9698622e2b7102b6f698568c40a","external_data_key":"8acef21b-c6a6-45b1-b7ac-f6df21217f8c","app_id":"7301571176088731649"}}
+
